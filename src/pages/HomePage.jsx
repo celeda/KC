@@ -14,8 +14,8 @@ const HomePage = () => {
   const heroTextOpacity = useTransform(scrollYProgress, [0, 0.1], [1, 0]);
   const heroTextY = useTransform(scrollYProgress, [0, 0.1], ["0%", "-30%"]);
 
-  const mainImageUrl = "https://storage.googleapis.com/hostinger-horizons-assets-prod/08c20cbd-97d3-4d2e-9224-e9b427c28a3e/9ebcb36c72b0e545a14b1e98d0f70ffa.jpg";
-  const aboutMeImageUrl = "https://storage.googleapis.com/hostinger-horizons-assets-prod/08c20cbd-97d3-4d2e-9224-e9b427c28a3e/5c74e2cd94a8640a2f2275d697827b86.jpg";
+  const mainImageUrl = "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1920&auto=format&fit=crop";
+  const aboutMeImageUrl = "https://images.unsplash.com/photo-1594824804732-5f8fcaf26be1?q=80&w=1920&auto=format&fit=crop";
 
   const scrollToServices = () => {
     const servicesSection = document.getElementById("services-section");

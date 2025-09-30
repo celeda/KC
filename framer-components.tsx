@@ -342,7 +342,7 @@ export function HeroSection(props) {
 }
 
 HeroSection.defaultProps = {
-    backgroundImage: "https://storage.googleapis.com/hostinger-horizons-assets-prod/08c20cbd-97d3-4d2e-9224-e9b427c28a3e/9ebcb36c72b0e545a14b1e98d0f70ffa.jpg",
+    backgroundImage: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1920&auto=format&fit=crop",
     title: "Katarzyna Celeda",
     subtitle: "Psychoterapeutka. Twoja przestrzeń do rozmowy, zrozumienia i wzrostu. Odkryjmy razem Twoją ścieżkę.",
     primaryButtonText: "Poznaj mnie",
@@ -456,8 +456,8 @@ export function Header(props) {
 }
 
 Header.defaultProps = {
-    logoLight: "https://storage.googleapis.com/hostinger-horizons-assets-prod/08c20cbd-97d3-4d2e-9224-e9b427c28a3e/5afba704ef397fc446b346535b0a1639.png",
-    logoDark: "https://storage.googleapis.com/hostinger-horizons-assets-prod/08c20cbd-97d3-4d2e-9224-e9b427c28a3e/cc4b6778972598ca9074a11d4ba01b6e.png",
+    logoLight: "https://images.unsplash.com/photo-1594824804732-5f8fcaf26be1?q=80&w=200&auto=format&fit=crop",
+    logoDark: "https://images.unsplash.com/photo-1594824804732-5f8fcaf26be1?q=80&w=200&auto=format&fit=crop",
     isDarkTheme: false,
     isScrolled: false,
 }

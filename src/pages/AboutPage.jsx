@@ -6,8 +6,8 @@ import useContent from '@/hooks/useContent';
 
 const AboutPage = () => {
   const { getValueByPath, isLoading } = useContent();
-  const mainAboutImageUrl = "https://storage.googleapis.com/hostinger-horizons-assets-prod/08c20cbd-97d3-4d2e-9224-e9b427c28a3e/3511dd402cf2200d28943d2ea37d4c3d.jpg";
-  const quoteImageUrl = "https://storage.googleapis.com/hostinger-horizons-assets-prod/08c20cbd-97d3-4d2e-9224-e9b427c28a3e/91294fd7f3c28fcb856088f48627c3de.jpg";
+  const mainAboutImageUrl = "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?q=80&w=1920&auto=format&fit=crop";
+  const quoteImageUrl = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1920&auto=format&fit=crop";
 
   if (isLoading) {
     return <div className="page-container text-center py-20">Ładowanie treści...</div>;

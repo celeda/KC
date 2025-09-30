@@ -147,7 +147,7 @@ export function HomePage(props) {
             <Section backgroundColor="var(--secondary-30)" paddingSize="large">
                 <div style={aboutSectionStyles}>
                     <img
-                        src="https://storage.googleapis.com/hostinger-horizons-assets-prod/08c20cbd-97d3-4d2e-9224-e9b427c28a3e/5c74e2cd94a8640a2f2275d697827b86.jpg"
+                        src="https://images.unsplash.com/photo-1594824804732-5f8fcaf26be1?q=80&w=1920&auto=format&fit=crop"
                         alt="Katarzyna Celeda"
                         style={aboutImageStyles}
                     />
@@ -300,7 +300,7 @@ export function AboutPage(props) {
     const quoteStyles = {
         textAlign: "center",
         padding: "80px 20px",
-        backgroundImage: "url('https://storage.googleapis.com/hostinger-horizons-assets-prod/08c20cbd-97d3-4d2e-9224-e9b427c28a3e/91294fd7f3c28fcb856088f48627c3de.jpg')",
+        backgroundImage: "url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1920&auto=format&fit=crop')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         borderRadius: "12px",
@@ -350,7 +350,7 @@ export function AboutPage(props) {
             {/* Experience Section */}
             <div style={contentSectionStyles}>
                 <img
-                    src="https://storage.googleapis.com/hostinger-horizons-assets-prod/08c20cbd-97d3-4d2e-9224-e9b427c28a3e/3511dd402cf2200d28943d2ea37d4c3d.jpg"
+                    src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?q=80&w=1920&auto=format&fit=crop"
                     alt="Katarzyna Celeda"
                     style={imageStyles}
                 />
